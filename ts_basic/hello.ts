@@ -23,3 +23,8 @@ var none;
 // var email: string = "test@test.com";
 // var isActive: boolean = true;
 // var none: any;
+
+console.log(id, typeof id)
+console.log(email, typeof email)
+console.log(isActive, typeof isActive)
+console.log(none, typeof none)
