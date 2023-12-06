@@ -26,3 +26,13 @@ console.log(items);
 var borderPrice = 350;
 var filterItems = items.filter((item) => item.price <= borderPrice);
 console.log(filterItems);
+
+// function
+function calculateTotalPrice(price: number, amount: number): number {
+    var totalPrice = price * amount;
+    return totalPrice;
+}
+
+var amount = 5;
+var totalPrice = calculateTotalPrice(item1.price, amount);
+console.log(totalPrice);
