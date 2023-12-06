@@ -8,3 +8,13 @@ export type User = {
     email: string;
     isActive: boolean;
 };
+
+// export interface User {
+//     id: number;
+//     name: {
+//         first: string;
+//         last: string;
+//     };
+//     email: string;
+//     isActive: boolean;
+// };
