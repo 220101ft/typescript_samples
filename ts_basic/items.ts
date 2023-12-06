@@ -1,22 +1,26 @@
+import { Item } from "./types";
 // 配列
 var itemNames: string[] = ["コーヒー", "紅茶", "ほうじ茶"];
 console.log(itemNames);
 
 // オブジェクト配列
-var item1 = {
+var item1: Item = {
     id: 1,
     name: "コーヒー",
     price: 350,
+    isSale: false,
 };
-var item2 = {
+var item2: Item = {
     id: 2,
     name: "紅茶",
     price: 400,
+    isSale: true,
 };
-var item3 = {
+var item3: Item = {
     id: 3,
     name: "ほうじ茶",
     price: 300,
+    isSale: false,
 };
 
 // var items: object[] = [item1, item2, item3];
