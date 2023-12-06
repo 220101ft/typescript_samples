@@ -46,7 +46,13 @@ const calculateTotalPrice = (price: number, amount: number): number => {
 };
 
 function findItem(id: number) {
-    return items.find((item) => item.id == id);
+    var result = items.find((item) => item.id == id);
+    return result;
+    // if (result) {
+    //     return result;
+    // } else {
+    //     return { id: 0, name: "", price: 0 };
+    // }
 }
 
 var amount = 5;
