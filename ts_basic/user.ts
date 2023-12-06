@@ -1,3 +1,19 @@
+// types の Userモジュールを読み込み
+import { User } from "./types";
+
+// 型推論で定義
+var user: User = {
+    id: 1,
+    name: {
+        first: "Taro",
+        last: "Tokyo",
+    },
+    email: "test@test.com",
+    isActive: true,
+};
+// user.name.first = 1;
+console.log(user);
+
 // 型を明示的に定義
 // var user: {
 //     id: number;
@@ -9,16 +25,3 @@
 //     isActive: true,
 // };
 // user.id = "32";
-
-// 型推論で定義
-var user = {
-    id: 1,
-    name: {
-        first: "Taro",
-        last: "Tokyo",
-    },
-    email: "test@test.com",
-    isActive: true,
-};
-// user.name.first = 1;
-console.log(user);
