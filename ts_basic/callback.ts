@@ -5,8 +5,8 @@ function handleRandom(count: number) {
 }
 
 // main
-function start(callback) {
-    var count;
+function start(callback: (count: number) => void) {
+    var count = 0;
     const timer = setInterval(() => {
         count++;
         if (count >= 5) clearInterval(timer);
