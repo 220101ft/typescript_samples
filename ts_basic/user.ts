@@ -44,7 +44,8 @@ var item3 = {
     price: 300,
 };
 
-var items: object[] = [item1, item2, item3];
+// var items: object[] = [item1, item2, item3];
+var items = [item1, item2, item3];
 console.log(items);
 
 var borderPrice = 300;
