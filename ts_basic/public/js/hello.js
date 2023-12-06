@@ -1,3 +1,4 @@
+"use strict";
 var message = "Hello";
 console.log(message);
 // var id;
@@ -20,6 +21,7 @@ var none;
 // var isActive: boolean = true;
 // var none: any;
 none = "YSE";
+none = 1;
 console.log(id, typeof id);
 console.log(email, typeof email);
 console.log(isActive, typeof isActive);
