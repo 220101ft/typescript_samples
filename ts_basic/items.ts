@@ -40,11 +40,19 @@ console.log(filterItems);
 // };
 
 // arrow function
-const calculateTotalPrice = (price: number, amount: number): number  => {
+const calculateTotalPrice = (price: number, amount: number): number => {
     var totalPrice = price * amount;
     return totalPrice;
+};
+
+function findItem(id: number) {
+    return items.find((item) => item.id == id);
 }
 
 var amount = 5;
 var totalPrice = calculateTotalPrice(item1.price, amount);
 console.log(totalPrice);
+
+var itemId = 1;
+var selectItem = findItem(itemId);
+console.log(selectItem);
