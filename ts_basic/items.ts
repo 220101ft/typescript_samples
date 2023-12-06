@@ -28,7 +28,19 @@ var filterItems = items.filter((item) => item.price <= borderPrice);
 console.log(filterItems);
 
 // function
-function calculateTotalPrice(price: number, amount: number): number {
+// function calculateTotalPrice(price: number, amount: number): number {
+//     var totalPrice = price * amount;
+//     return totalPrice;
+// }
+
+// anonymous function
+// const calculateTotalPrice = function (price: number, amount: number): number {
+//     var totalPrice = price * amount;
+//     return totalPrice;
+// };
+
+// arrow function
+const calculateTotalPrice = (price: number, amount: number): number  => {
     var totalPrice = price * amount;
     return totalPrice;
 }
